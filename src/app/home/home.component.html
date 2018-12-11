@@ -1,0 +1,13 @@
+<mat-card style="width: 650px; overflow: elipses; margin: 0 auto; margin-top: 30px;">
+  <pre>
+    {{user | json}}
+  </pre>
+</mat-card>
+<p>
+  <button name="Notifications" (click)="notificationsClicked()">Get Notifications</button>
+</p>
+<mat-card *ngIf="notifications" style="width: 650px; overflow: elipses; margin: 0 auto; margin-top: 30px;">
+  <pre>
+    {{notifications | json}}
+  </pre>
+</mat-card>
