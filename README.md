@@ -9,5 +9,6 @@ This is a sample Angular appliction that connects to an Azure AD secured backend
 * Test the application locally 
   
 ```
+npm install
 ng serve -c=local
 ```
